@@ -22,8 +22,7 @@ def plist(s,e):
     return out
 
 ALL=plist(0,len(d))
-BODY=next(i for i,p in enumerate(ALL) if p[3].startswith('Titolo I – I principi generali') and i>0 and
-          any(q[3].startswith('Titolo I – I principi generali') for q in ALL[:i]))
+BODY=next(i for i,p in enumerate(ALL) if 'w:val="Titolo1"' in p[2] and p[3].startswith('Titolo'))
 
 def region(n):
     idx=[i for i in range(BODY,len(ALL)) if ALL[i][3].startswith(f'Scheda {n} ') and 'Titolo2' in ALL[i][2]]

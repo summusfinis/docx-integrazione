@@ -10,7 +10,7 @@ d=io.open(DOC,encoding='utf-8').read()
 def scan():
     return [(m.start(),m.end(),m.group(0),nodes(d,m.start(),m.end())[0].strip()) for m in PARA.finditer(d)]
 P=scan()
-BODY=[k for k,p in enumerate(P) if p[3].startswith('Titolo I – I principi generali')][-1]
+BODY=next(k for k,p in enumerate(P) if 'w:val="Titolo1"' in p[2] and p[3].startswith('Titolo'))
 
 # ---- 0) spazi persi fra run adiacenti ("ladatio in solutum")
 ed=[]
@@ -21,7 +21,7 @@ for m in PARA.finditer(d):
 d=apply_edits(d,ed)
 print('spazi ripristinati:',len(ed))
 P=scan()
-BODY=[k for k,p in enumerate(P) if p[3].startswith('Titolo I – I principi generali')][-1]
+BODY=next(k for k,p in enumerate(P) if 'w:val="Titolo1"' in p[2] and p[3].startswith('Titolo'))
 
 # ---- A) sezioni non consecutive: rinumera e rifa' il Sommario
 blocks=[]; cur=None

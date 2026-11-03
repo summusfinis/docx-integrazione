@@ -1,10 +1,9 @@
 # docx-integrazione
 
-Strumenti per integrare un compendio in formato Word (.docx) con il testo di un
-manuale: inserimento di sezioni e capoversi nelle schede, creazione di schede nuove con
-rinumerazione, corsivi e grassetti nelle tabelle di riepilogo, ricalcolo dell'indice e dei
-numeri di pagina. Nati per un compendio di diritto civile; la logica dei documenti è generica,
-ma molte regole di redazione e il dizionario dei corsivi sono specifici di quel testo.
+Strumenti per produrre un compendio in formato Word (.docx) e integrarlo con il testo di un
+manuale: creazione del documento da un file Markdown, inserimento di sezioni e capoversi nelle
+schede, corsivi e grassetti, ricalcolo dell'indice e dei numeri di pagina. Non serve un .docx di
+partenza: il documento si può creare da zero.
 
 ## Requisiti
 
@@ -16,49 +15,76 @@ ma molte regole di redazione e il dizionario dei corsivi sono specifici di quel 
 
 | Variabile | Significato | Default |
 |---|---|---|
-| `DOCX_WORK` | cartella di lavoro: contiene `delta/`, `tab/`, `pagine.json`, e riceve `docx/` e `out.docx` | `./lavoro` |
-| `DOCX_SOURCE` | il .docx di partenza | `$DOCX_WORK/sorgente.docx` |
-| `DOCX_PRIMO_TITOLO` | testo che apre il primo titolo del corpo, per `misura_pagine.py` | `Titolo I – ` |
+| `DOCX_WORK` | cartella di lavoro: contiene i file di input e riceve `docx/`, `out.docx`, `pagine.json` | `./lavoro` |
+| `DOCX_SOURCE` | .docx di partenza, se si vuole partire da un documento esistente | `$DOCX_WORK/sorgente.docx`, se presente |
+| `DOCX_CONTENUTO` | file Markdown da cui creare il documento, se non c'è un .docx di partenza | `$DOCX_WORK/contenuto.md` |
+| `DOCX_PRIMO_TITOLO` | testo che apre il primo titolo, per misurare le pagine | `Titolo I – ` |
 | `DOCX_VOCAB` | dizionario dei termini da corsivizzare | `dati/vocab.txt` |
+| `DOCX_SCAMBI=1` | attiva lo scambio di titoli e schede (`indice_swap.py`), solo per il caso del compendio di partenza | non attivo |
+| `DOCX_NUOVE=1` | attiva l'inserimento di schede nuove da `delta/*.json` (`nuove.py`), solo per il caso del compendio di partenza | non attivo |
+
+## Formato di `contenuto.md`
+
+Riga per riga, sopra la prima intestazione:
+
+    titolo_copertina: NOME DEL COMPENDIO
+    sottotitolo: PARTE GENERALE
+
+Poi il testo, con queste intestazioni:
+
+    # Titolo I – Nome del titolo          titolo (voce d'indice)
+    ## Scheda 1 – Nome della scheda       scheda (voce d'indice); il Sommario si genera da solo
+    ### Nome della sezione                sezione, numerata automaticamente
+    #### Nome della sottosezione          sottosezione
+
+Le righe di testo sono capoversi (una riga vuota separa i capoversi). Inline: `**grassetto**`,
+`*corsivo*`, `***grassetto corsivo***`. Il numero delle sezioni è automatico: non va scritto.
+
+Esempio completo: `esempi/contenuto_esempio.md` (testo inventato, per prova).
 
 ## Struttura
 
-- `bin/build.sh`: catena completa, dal sorgente a `out.docx`
+- `bin/build.sh`: catena completa, da `contenuto.md` (o dal .docx di partenza) a `out.docx`
+- `bin/crea_documento.py`: crea il pacchetto Word da `contenuto.md`: stili, copertina, indice, schede, sezioni
 - `bin/misura_pagine.py`: misura le pagine di schede e titoli su `out.docx` e scrive `pagine.json`
 - `bin/xmltext.py`, `bin/runs.py`, `bin/mk.py`: lettura e scrittura di paragrafi e run di `word/document.xml`
-- `bin/indice_swap.py`: scambio di blocchi nell'indice e nel corpo, con rinumerazione (specifico del caso di partenza)
+- `bin/indice_swap.py`: scambio di blocchi nell'indice e nel corpo (solo con `DOCX_SCAMBI=1`)
 - `bin/corsivi.py`: corsivi sui termini del dizionario, più suffissi degli articoli (`-bis`, `-ter`, …)
-- `bin/tabapply.py`: grassetti e corsivi sulle righe di elenco delle tabelle di riepilogo, da coppie `in_N.txt`/`out_N.txt`
+- `bin/tabapply.py`: grassetti e corsivi sulle righe di elenco delle tabelle, da coppie `tab/in_N.txt`/`out_N.txt`
 - `bin/integra.py`: inserisce sezioni e capoversi da `delta/*.json` nelle schede esistenti
-- `bin/nuove.py`: crea schede nuove da `_nuove_schede` in `delta/*.json`, con rinumerazione e voce d'indice
-- `bin/sistema.py`: rinumera sezioni non consecutive, riallinea i sommari, porta il corpo delle schede a 11,5
+- `bin/nuove.py`: schede nuove da `delta/*.json` (solo con `DOCX_NUOVE=1`)
+- `bin/sistema.py`: rinumera le sezioni non consecutive, riallinea i sommari, porta il corpo delle schede a 11,5
 - `bin/firstpage.py`: prima pagina senza numero
 - `bin/indice_pagine.py`: aggiorna i numeri dell'indice da `pagine.json`
 - `dati/vocab.txt`: dizionario dei corsivi, formato `conteggio | termine`
-- `istruzioni/`: istruzioni per i subagenti che producono i file di input (`delta/`, `tab/`, trascrizioni)
+- `istruzioni/`: istruzioni per i subagenti che producono i file di input
+- `esempi/`: esempio di `contenuto.md`
 
 ## Uso
 
+Creare il documento da zero:
+
 ```bash
-export DOCX_WORK=/percorso/alla/cartella/di/lavoro
-export DOCX_SOURCE=/percorso/al/sorgente.docx   # opzionale
-bash bin/build.sh                               # produce $DOCX_WORK/out.docx
-python3 -I bin/misura_pagine.py                 # scrive $DOCX_WORK/pagine.json
-bash bin/build.sh                               # rigenera con i numeri di pagina
+export DOCX_WORK=/percorso/alla/cartella/di/lavoro   # contiene contenuto.md
+bash bin/build.sh                                    # produce $DOCX_WORK/out.docx
+python3 -I bin/misura_pagine.py                      # scrive pagine.json
+bash bin/build.sh                                    # rigenera con i numeri di pagina
 ```
 
-Il ciclo va ripetuto finché `pagine.json` non cambia. Con due giri, di norma, è stabile.
+Partire da un .docx esistente: stessi comandi, con `DOCX_SOURCE` al posto di `contenuto.md`.
+
+Il ciclo di misura va ripetuto finché `pagine.json` non cambia. Di norma bastano due giri.
 
 ## Istruzioni per i subagenti
 
-Nei file in `istruzioni/`, `<LAVORO>` indica la cartella `DOCX_WORK`. Sostituirla con il
-percorso reale prima di affidare il lavoro a un agente.
+Nei file in `istruzioni/`, `<LAVORO>` indica la cartella `DOCX_WORK`. Sostituirla con il percorso
+reale prima di affidare il lavoro a un agente.
 
 ## Limiti noti
 
-- Nessun test automatico. Il repository ha un solo controllo riproducibile: rifare il build da
-  un sorgente e confrontare `docx/word/document.xml` con un build di riferimento.
+- Nessun test automatico. I controlli fatti finora sono script di verifica eseguiti a mano, più un
+  confronto con un build di riferimento.
+- Le tabelle «Mappa concettuale» non vengono generate da `contenuto.md`: il corpo è solo testo.
 - I numeri di pagina sono misurati con LibreOffice. Word può scostarsi di una pagina su qualche voce.
-- `indice_swap.py` scambia due titoli e due schede numerate in modo fisso: va riscritto per un altro documento.
-- Le regole di redazione (corsivi, misure, grassetti) e il dizionario sono di un compendio di diritto civile.
-- Gli script non verificano la fedeltà del testo inserito alla fonte: è compito della revisione umana.
+- Il dizionario dei corsivi va rigenerato per ogni testo.
+- Gli script non verificano la fedeltà del testo alla fonte: è compito della revisione umana.

@@ -60,7 +60,10 @@ for fname,idx,num,after in sorted(ACC,key=lambda x:-x[2]):
         rep.append(f'Scheda {num}: MODELLI MANCANTI'); continue
     secs=pr['sections']
     titles=[s['title'] for s in secs]
-    xml=f'<w:p>{ppr(h2[2])}'+mkruns(f"Scheda {num} – {pr['title']}",first_rpr(h2[2]))+'</w:p>'
+    anc=f'hn{num}'
+    xml=(f'<w:p>{ppr(h2[2])}<w:bookmarkStart w:id="{90000+num}" w:name="{anc}"/>'
+         +mkruns(f"Scheda {num} – {pr['title']}",first_rpr(h2[2]))
+         +f'<w:bookmarkEnd w:id="{90000+num}"/></w:p>')
     lab=re.search(r'<w:r(?:\s[^>]*)?>.*?</w:r>',som[2],re.S).group(0)
     lab=re.sub(r'(<w:t[^>]*>)[^<]*(</w:t>)',r'\1Sommario: \2',lab,count=1)
     rest=' – '.join(f'{i+1}. {t}' for i,t in enumerate(titles))
@@ -76,7 +79,8 @@ for fname,idx,num,after in sorted(ACC,key=lambda x:-x[2]):
     rpi=first_rpr(ixp[2])
     last=list(re.finditer(r'<w:r(?:\s[^>]*)?>.*?</w:r>',ixp[2],re.S))[-1].group(0)
     pagerun=re.sub(r'(<w:t[^>]*>)[^<]*(</w:t>)',r'\g<1>0\2',last,count=1)
-    ixml=f'<w:p>{ppr(ixp[2])}'+mkruns(f"Scheda {num} – {pr['title']}",rpi)+pagerun+'</w:p>'
+    ixml=(f'<w:p>{ppr(ixp[2])}<w:hyperlink w:anchor="{anc}" w:history="1">'
+          +mkruns(f"Scheda {num} – {pr['title']}",rpi)+'</w:hyperlink>'+pagerun+'</w:p>')
     if APPLY:
         d=d[:h2[0]]+xml+d[h2[0]:]
         d=d[:ixp[0]]+ixml+d[ixp[0]:]
