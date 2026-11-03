@@ -1,5 +1,8 @@
+import os as _os
+_BIN = _os.path.dirname(_os.path.abspath(__file__))
+_WORK = _os.environ.get('DOCX_WORK') or _os.path.join(_os.getcwd(), 'lavoro')
 import re,io,sys
-B='/home/user/work/docx/'
+B=_os.path.join(_WORK,'docx/')
 # 1) footer vuoto per la prima pagina
 ns=re.search(r'<w:ftr[^>]*>',io.open(B+'word/footer1.xml',encoding='utf-8').read()).group(0)
 io.open(B+'word/footer2.xml','w',encoding='utf-8').write(

@@ -1,0 +1,1375 @@
+635 | ex
+234 | Mappa concettuale
+196 | bis
+100 | ter
+92 | ratio
+76 | ex lege
+71 | inter vivos
+68 | mortis causa
+66 | de cuius
+57 | datio in solutum
+55 | facere
+52 | ad substantiam
+42 | pro quota
+39 | a non domino
+38 | res
+37 | falsus procurator
+35 | post mortem
+34 | in re ipsa
+33 | solvens
+32 | accipiens
+31 | erga omnes
+29 | ab origine
+29 | quantum
+24 | ex tunc
+22 | eventus damni
+21 | status
+21 | an
+20 | propter rem
+20 | exceptio doli generalis
+20 | species
+20 | ex nunc
+20 | ex novo
+20 | solvendi causa
+19 | neminem laedere
+18 | in incertam personam
+17 | privacy
+17 | ad hoc
+17 | soluti retentio
+17 | pactum fiduciae
+16 | ad probationem
+16 | dominus
+16 | online
+15 | gentlemen’s agreement
+15 | titulus
+15 | social network
+14 | par condicio creditorum
+14 | per saltum
+14 | lato sensu
+14 | inter partes
+14 | genus
+14 | ex post
+14 | traditio
+14 | sui generis
+14 | software
+13 | usucapio libertatis
+13 | negotiorum gestio
+13 | sexies
+13 | causa petendi
+13 | clare loqui
+13 | quinquies
+12 | ius variandi
+12 | ius superveniens
+12 | in executivis
+12 | causa solvendi
+12 | beneficium ordinis
+12 | medio tempore
+12 | quid pluris
+11 | si praemoriar
+11 | a contrario
+11 | modus adquirendi
+11 | solve et repete
+11 | contrarius actus
+11 | claims made
+11 | scientia damni
+11 | dare
+11 | petitum
+11 | deepfake
+10 | ad nutum
+10 | ex se
+10 | beneficium excussionis
+10 | ex ante
+10 | datio rei
+10 | modus
+10 | expressio causae
+10 | fictio iuris
+10 | dies a quo
+10 | no profit
+9 | mora credendi
+9 | inter alios
+9 | aliud pro alio
+9 | non facere
+9 | quomodo
+9 | denuntiatio
+9 | relatio
+9 | simul stabunt simul cadent
+9 | septies
+8 | compensatio lucri cum damno
+8 | res incerta
+8 | trust
+8 | favor debitoris
+8 | tertium genus
+8 | intuitu personae
+8 | probatio diabolica
+8 | more uxorio
+8 | sine causa
+8 | pro soluto
+8 | condictio indebiti
+8 | ex recepto
+8 | quater
+8 | compensatio
+8 | iuris tantum
+8 | sine titulo
+8 | sine die
+8 | morte
+8 | revenge porn
+7 | omnibus
+7 | pro solvendo
+7 | animus novandi
+7 | do ut des
+7 | mutatio libelli
+7 | status quo ante
+7 | consilium fraudis
+7 | trustee
+7 | contra ius
+7 | class action
+7 | iure hereditatis
+7 | a domino
+7 | opt-in
+6 | a fortiori
+6 | perpetuatio obligationis
+6 | Datio in solutum
+6 | favor creditoris
+6 | ex re
+6 | ultra dimidium
+6 | par condicio
+6 | aliquid novi
+6 | undecies
+6 | condicio sine qua non
+6 | più probabile che non
+6 | promitto quia promitto
+6 | utiliter coeptum
+6 | absentia domini
+6 | non iure
+6 | iure proprio
+6 | culpa in vigilando
+6 | res dubia
+6 | res litigiosa
+6 | relationem
+6 | lockdown
+6 | telemarketing
+6 | product placement
+6 | social
+6 | marketing
+6 | uti condominus
+5 | exceptio inadimpleti contractus
+5 | My Way
+5 | pacta sunt servanda
+5 | punitive damages
+5 | ex contractu
+5 | vinculum iuris
+5 | astreintes
+5 | common law
+5 | una tantum
+5 | astreinte
+5 | alla francese
+5 | per relationem
+5 | ex persona
+5 | ex officio
+5 | iussum
+5 | utendo iuribus
+5 | tout court
+5 | opus
+5 | chance
+5 | leges artis
+5 | trascuratezza
+5 | partecipatio fraudis
+5 | settlor
+5 | sub specie
+5 | incidenter tantum
+5 | negotium mixtum cum donatione
+5 | tamquam non esset
+5 | Omnibus
+5 | opt-out
+5 | munus
+5 | ad usucapionem
+5 | quod superest
+5 | ius aedificandi
+5 | uti dominus
+5 | fake news
+5 | status filiationis
+4 | For You
+4 | swap
+4 | apparentia iuris
+4 | numerus clausus
+4 | animus nocendi
+4 | all inclusive
+4 | quasi-contratto
+4 | quasi-delitto
+4 | in obligatione
+4 | in solutione
+4 | eadem causa obligandi
+4 | pro parte
+4 | prohibente domino
+4 | ope legis
+4 | ipso iure
+4 | delegatio solvendi
+4 | tutto compreso
+4 | pactum de non petendo
+4 | factor
+4 | datio
+4 | up-front
+4 | all or nothing
+4 | negativa non sunt probanda
+4 | consilium damni
+4 | nummo uno
+4 | machine learning
+4 | mutatis mutandis
+4 | ius poenitendi
+4 | simul stabunt, simul cadent
+4 | free riding
+4 | alternative dispute resolution
+4 | se…allora
+4 | claim
+4 | public enforcement
+4 | business to consumer
+4 | consumatore
+4 | facultas restituendi
+4 | animus possidendi
+4 | semel heres, semper heres
+4 | legal compliance
+4 | best interest of the child
+3 | numerus quasi clausus
+3 | proximity
+3 | rapporto giuridico
+3 | pati
+3 | contextual no law
+3 | ex variis causarum figuris
+3 | cuius commoda eius et incommoda
+3 | in facultate solutionis
+3 | idem debitum
+3 | beneficium divisionis
+3 | taxatio
+3 | quantum debeatur
+3 | opinio iuris ac necessitatis
+3 | revirement
+3 | causa
+3 | fuori mercato
+3 | corpus
+3 | ménage
+3 | pura
+3 | animus donandi
+3 | pagamento
+3 | adiectus solutionis causa
+3 | credendi
+3 | actio interrogatoria
+3 | pactum
+3 | nomen verum
+3 | nomen bonum
+3 | in toto
+3 | delegatio promittendi
+3 | solvendi
+3 | emendatio libelli
+3 | prima
+3 | welfare
+3 | id quod plerumque accidit
+3 | routine
+3 | vicinitas
+3 | obiter dictum
+3 | trascura
+3 | rei persecutoria
+3 | disgorgement
+3 | animus aliena negotia gerendi
+3 | ex latere solvendi
+3 | res perit domino
+3 | cuius commoda, eius et incommoda
+3 | in fatto
+3 | a priori
+3 | summa divisio
+3 | sic et simpliciter
+3 | rebus sic stantibus
+3 | passiva
+3 | attiva
+3 | hardship
+3 | quaestio
+3 | retail
+3 | contra legem
+3 | res facti
+3 | se
+3 | a valle
+3 | resoluto iure dantis, resolvitur et ius accipientis
+3 | Code Napoléon
+3 | possesso vale titolo
+3 | ius tollendi
+3 | Mortgage
+3 | business to business
+3 | malgrado la buona fede
+3 | Brunetta
+3 | octies
+3 | prior in tempore potior in iure
+3 | master agreement
+3 | mark to market
+3 | in re aliena
+3 | res nullius
+3 | ius ad aedificandum
+3 | interversio possessionis
+3 | ab intestato
+3 | financo
+3 | quotona
+3 | quotina
+3 | Internet service provider
+3 | accountability
+3 | cyber
+3 | influencer
+3 | irrilevanza iuris
+3 | mission
+2 | best interest of child
+2 | prima facie
+2 | ratio legis
+2 | A contrario
+2 | interpretatio abrogans
+2 | autonomi
+2 | alterum non laedere
+2 | id est
+2 | gross disparity
+2 | vis normativa
+2 | exemplary damages
+2 | prestazione
+2 | deliberate no law
+2 | pleno iure
+2 | nomen
+2 | ex delicto
+2 | de facto
+2 | quasi-delitti
+2 | quisque de populo
+2 | genus numquam perit
+2 | estromissione
+2 | reductio ad aequitatem
+2 | electio
+2 | regresso
+2 | surrogazione
+2 | tantundem
+2 | ante causam
+2 | in illiquidis non fit mora
+2 | sub iudice
+2 | diuturnitas
+2 | pagamenti
+2 | prezzo
+2 | composto
+2 | factum principis
+2 | a prima richiesta
+2 | senza eccezioni
+2 | a monte
+2 | leading case
+2 | di riflesso
+2 | causa obligandi
+2 | fiches
+2 | non producono altri effetti
+2 | ope exceptionis
+2 | animus solvendi
+2 | animus
+2 | querable
+2 | adiectus
+2 | facta concludentia
+2 | guarda
+2 | prior obligatio
+2 | Excursus
+2 | bene
+2 | uno actu
+2 | successione
+2 | mutuo
+2 | in fieri
+2 | case by case
+2 | pro futuro
+2 | causa donandi
+2 | vulnus
+2 | Verwirkung
+2 | donandi causa
+2 | percipiens
+2 | dopo
+2 | in vigilando
+2 | in eligendo
+2 | restitutio in integrum
+2 | perdita subita
+2 | mancato guadagno
+2 | default
+2 | qualitas
+2 | participatio fraudis
+2 | dolosa preordinazione
+2 | trust fund
+2 | querelle
+2 | civil law
+2 | no prohibitio domini
+2 | prohibitio domini
+2 | ex latere accipiendi
+2 | nonies
+2 | acceptio
+2 | affectio familiaris
+2 | in nuce
+2 | actio mandati
+2 | favor riparationis
+2 | salute
+2 | pretium doloris
+2 | straining
+2 | considerando
+2 | affidante
+2 | a seconda dei casi
+2 | effetto sorpresa
+2 | obiter
+2 | culpa in educando
+2 | regolare
+2 | salvo che la legge disponga diversamente
+2 | ultra vires
+2 | over
+2 | partner
+2 | parte
+2 | favor
+2 | in rerum natura
+2 | res extra commercium
+2 | puro
+2 | mancipatio
+2 | secundum legem
+2 | praeter legem
+2 | procedural justice
+2 | substantial justice
+2 | longa manus
+2 | forte
+2 | a posteriori
+2 | Falsus procurator
+2 | fictio
+2 | iure successionis
+2 | quid minus
+2 | de die in diem
+2 | come
+2 | protestatio contra factum
+2 | ti pagherò se vorrò
+2 | se vorrò
+2 | killer
+2 | nomen iuris
+2 | nullità
+2 | extrema ratio
+2 | persona sensata
+2 | Simul stabunt simul cadent
+2 | contrarius consensus
+2 | electus
+2 | constitutum possessorium
+2 | chartula
+2 | sulla carta
+2 | nemo plus iuris transferre potest quam ipse habet
+2 | universitas
+2 | nemo plus iuris
+2 | customer protection
+2 | private enforcement
+2 | bond
+2 | prevalentemente
+2 | expressis verbis
+2 | banner
+2 | exceptio
+2 | shopping
+2 | uti singuli
+2 | novies
+2 | aliquid datum, aliquid retentum
+2 | de residuo
+2 | Mortis causa
+2 | utile per inutile non vitiatur
+2 | in parte qua
+2 | moral hazard
+2 | immobile da costruire
+2 | Engel criteria
+2 | deceptor
+2 | Rossetti
+2 | ratione temporis
+2 | dolus malus
+2 | procedurale
+2 | on claims made basis
+2 | ad ogni effetto
+2 | agere necesse
+2 | servitus in faciendo consistere nequit
+2 | petitio hereditatis
+2 | res derelicta
+2 | ubi lex voluit dixit, ubi noluit tacuit
+2 | rinuncia
+2 | nemini res sua servit
+2 | utilitas
+2 | ius in re aliena
+2 | ad aedificandum
+2 | ordo successivus
+2 | in re propria
+2 | brevi manu
+2 | non dominus
+2 | prigioniero
+2 | diritto al diritto
+2 | intra vires
+2 | semel heres semper heres
+2 | pars quota
+2 | pars quanta
+2 | riconosce
+2 | fake
+2 | desistat
+2 | Andrea
+2 | handicap
+2 | set
+2 | cyber stalking
+2 | social media
+2 | Digital Service Act
+2 | interna corporis
+2 | e null’altro
+1 | Lexitor
+1 | antitrust
+1 | smart contracts
+1 | do ut facias
+1 | claims
+1 | made
+1 | analogia iuris
+1 | policy
+1 | privi di disposizione
+1 | contro-limiti
+1 | normativa
+1 | Valdis Fjölnisdottir c. Islanda
+1 | giustizia del caso concreto
+1 | apparente
+1 | efficienza
+1 | Numerus quasi clausus
+1 | ubi voluit lex dixit
+1 | eo magis
+1 | a maggior ragione
+1 | ad absurdum
+1 | ab absurdo
+1 | a simili
+1 | A fortiori
+1 | bona fide
+1 | contratti con effetti protettivi a favore di terzi
+1 | contratti con finalità protettiva del terzo
+1 | babysitter
+1 | integrativi
+1 | fede
+1 | buona fede
+1 | correttezza
+1 | autocorrezione
+1 | emulatio
+1 | de qua
+1 | esistenziale
+1 | giustizia
+1 | medesimo rapporto di durata
+1 | relazione di fatto
+1 | medesimo fatto costitutivo
+1 | medesimo
+1 | analogo
+1 | identico
+1 | sproporzionata
+1 | rischio cambio
+1 | se il contratto possa produrre effetti
+1 | realità
+1 | interessato
+1 | patrimoniale
+1 | valutazione economica
+1 | grossly excessive
+1 | funzione attiva e dinamica
+1 | funzione statica
+1 | giuridicità
+1 | deliberate no-law
+1 | contextual no-law
+1 | colorare
+1 | occasionato
+1 | convivono
+1 | contatto
+1 | nexum
+1 | obligatio
+1 | vinculum personae
+1 | manus iniectio
+1 | vindex
+1 | addictio
+1 | lex Poetelia Papiria
+1 | Schuld und Haftung
+1 | Schuld
+1 | Haftung
+1 | come un’ombra
+1 | expectation interest
+1 | reliance interest
+1 | restitution interest
+1 | centro d’interesse
+1 | facere cum effectu
+1 | facere sine effectu
+1 | suscettibile di valutazione economica
+1 | equo apprezzamento
+1 | gentiluomini
+1 | business community
+1 | ex quasi contractu
+1 | ex quasi delicto
+1 | di chiusura
+1 | riduzione del ruolo della volontà
+1 | fattispecie condizionante
+1 | effetto giuridico
+1 | rapporti contrattuali di fatto
+1 | di fatto
+1 | self-service
+1 | ex maleficio
+1 | quasi-contratti
+1 | istituto liquido in una società complessa
+1 | integratrice
+1 | creatrice
+1 | altri atti o fatti
+1 | comportamento interlocutorio
+1 | peggiorato
+1 | qua ante
+1 | culpa in non faciendo
+1 | qualificati
+1 | generici
+1 | contatto sociale
+1 | rapporto amministrativo
+1 | supremazia
+1 | indivisibilità-solidarietà
+1 | divisibilità-parziarietà
+1 | lex contractus
+1 | l’acquisto non è effetto immediato del contratto
+1 | vendita obbligatoria
+1 | sia di pregiudizio per l’economia nazionale
+1 | salvo che ciò sia manifestamente iniquo
+1 | frutto di un’opzione discrezionale del legislatore
+1 | soggettivamente indivisibile
+1 | unica
+1 | astratta
+1 | determinabilità
+1 | determinatezza
+1 | scegliere
+1 | in limine solutionis
+1 | facultas alternativa
+1 | titolo
+1 | accessorio
+1 | salvo che risulti diversamente
+1 | naturale
+1 | ragioni comuni
+1 | adesivo e non estensivo
+1 | team
+1 | equipe
+1 | pro indiviso
+1 | esposto
+1 | smaterializzato
+1 | pecunia
+1 | estimatio
+1 | uso piazza
+1 | usura legale
+1 | se le parti non ne hanno determinato la misura
+1 | capitalizzazione degli interessi
+1 | effettivo
+1 | aestimatio
+1 | infra dimidium
+1 | ictu oculi
+1 | all’italiana
+1 | sanare
+1 | denaro contro denaro
+1 | denaro contro beni
+1 | a prima domanda
+1 | incondizionatamente
+1 | a insindacabile giudizio del beneficiario
+1 | a prima/semplice richiesta e senza eccezioni
+1 | Garantievertrag
+1 | di patrocinio
+1 | di influenza
+1 | di raccomandazione
+1 | patronnant
+1 | iusta causa solvendi
+1 | patronage
+1 | ti devo pagare per i servizi che mi hai reso
+1 | umano
+1 | non è ammessa
+1 | non accorda azione
+1 | esclude la ripetizione
+1 | imperfetta
+1 | quiescente
+1 | spontaneamente
+1 | volontariamente
+1 | con il serio proposito di sposarsi
+1 | cessio bonorum
+1 | morte naturale dell’obbligazione
+1 | animus solvendi alieni
+1 | ex latere accipientis
+1 | accettazione
+1 | ricevere
+1 | portable
+1 | circostanze univoche
+1 | salvo che il creditore lo consenta
+1 | prestazione di cosa diversa da quella convenuta
+1 | pecunia pro re
+1 | res pro pecunia
+1 | pecunia pro pecunia
+1 | res pro facere
+1 | pecunia pro facere
+1 | facere pro re
+1 | facere pro pecunia
+1 | causa novandi
+1 | quod nullum est nullum producit effectum
+1 | qualità
+1 | in rem suam
+1 | actio utilis
+1 | patrimonio
+1 | procura in rem suam, actio utilis
+1 | la cessione ha effetto…
+1 | causa in concreto
+1 | mandato per l’incasso
+1 | efficacia
+1 | pactum de non cedendo
+1 | a titolo oneroso o gratuito
+1 | pagamento con surrogazione
+1 | celeritas coniungendarum actionum
+1 | vera delegazione
+1 | forma anomala di pagamento
+1 | mezzo anormale di pagamento
+1 | actio mandati contraria
+1 | delegazione cumulativa
+1 | delegazione di pagamento
+1 | manlevarlo
+1 | Angebotstheorie
+1 | diritto
+1 | fondate su altri rapporti tra promittente e stipulante
+1 | che ha aderito alla stipulazione
+1 | litigation risks
+1 | rectius
+1 | novazione del contratto
+1 | in facultate
+1 | res in obligatione
+1 | stabilizzazione
+1 | vendendi
+1 | non ha natura meramente obbligatoria
+1 | fatto proprio
+1 | Rimborso anticipato
+1 | boomerang
+1 | novesdecies
+1 | contrattuale
+1 | cumulo
+1 | contrattualizzazione
+1 | responsabilità del passante
+1 | assorbita
+1 | non esegue esattamente la prestazione dovuta
+1 | metamorfosi
+1 | ex bona fide
+1 | impossibilità giuridica
+1 | obbligazione di custodire
+1 | sanzionare
+1 | offerta non formale
+1 | culpa in eligendo
+1 | padroni e committenti
+1 | salva diversa volontà contraria
+1 | casus = non culpa
+1 | esatto
+1 | preponderance of evidence and inference
+1 | pro rata
+1 | apportionment of liability
+1 | duty to mitigate
+1 | causa non imputabile
+1 | ingiusto
+1 | aestimatio rei
+1 | id quod interest
+1 | more probably than not
+1 | legge di connessione
+1 | onus probandi
+1 | hic et nunc
+1 | certezza morale
+1 | recepta
+1 | suscettibile
+1 | in conformità all’ordinamento giuridico
+1 | scarsa importanza dell’inadempimento
+1 | non sono guarito
+1 | il quadro è caduto
+1 | mi hai operato e il braccio mi fa male
+1 | Del lavoro autonomo
+1 | culpa in non facendo
+1 | culpa in facendo
+1 | tutti i suoi beni presenti e futuri
+1 | presenti e futuri
+1 | ex parte creditoris
+1 | ultra vires hereditatis
+1 | un soggetto, un patrimonio
+1 | Par condicio creditorum
+1 | aventi causa
+1 | identificato
+1 | ex multis
+1 | il cessionario di un credito beneficia
+1 | letterale
+1 | privilegi
+1 | sistematico
+1 | teleologico
+1 | analogico
+1 | latere creditoris
+1 | atti di disposizione del patrimonio
+1 | deminutio
+1 | normali
+1 | scientia decoctionis
+1 | inscientia decoctionis
+1 | scoperto
+1 | fumus boni iuris
+1 | periculum in mora
+1 | Fumus boni iuris
+1 | Periculum in mora
+1 | eventus
+1 | Eventus damni
+1 | squarcia il velo
+1 | trust-friendly
+1 | principia iuris
+1 | contratto
+1 | chartulae
+1 | unitaria operazione economica globale
+1 | actio pauliana
+1 | de iure
+1 | absentia
+1 | prohibitio legis
+1 | a latere solventis
+1 | sine causa ab origine
+1 | ob causam finitam
+1 | sia pur indiretta
+1 | Casarin c. Italia
+1 | legitimate expectation
+1 | hope
+1 | ex fide bona
+1 | nemini licet cum alterius iactura locupletari
+1 | diritto delle restituzioni
+1 | law of restitutions
+1 | pro simultaneus processus
+1 | ingiusta
+1 | efficiente
+1 | convenienti
+1 | extra risarcimento
+1 | in ogni caso
+1 | disgorgement of profits
+1 | antisociale
+1 | overcompensation
+1 | escluso
+1 | in astratto
+1 | in base alla mera prospettazione del convenuto
+1 | de plano
+1 | contratto inesistente
+1 | ingiustizia
+1 | b.a.r.d
+1 | diritto a non nascere se non sano
+1 | exemplary sentence
+1 | qualunque fatto doloso o colposo
+1 | fatto
+1 | oltre ogni ragionevole dubbio
+1 | risponde chi è capace di intendere e di volere
+1 | aggravate
+1 | eiusdem condicionis et professionis
+1 | indennità
+1 | l’indennità è dovuta
+1 | di San Martino
+1 | sufficiently serious
+1 | endofamiliare
+1 | wrongful birth
+1 | wrongful conception
+1 | assimilare
+1 | in educando
+1 | non aver potuto impedire il fatto
+1 | favor victimae
+1 | Ex
+1 | light
+1 | passing-on defence
+1 | overcharge
+1 | azioni collettive
+1 | quanti minoris
+1 | innocuo
+1 | praesumptio de praesumpto
+1 | rischio oggettivamente evitabile
+1 | difettosità
+1 | pericolosità
+1 | open source
+1 | perdite provvisorie
+1 | lex specialis
+1 | danno da cambiamento climatico
+1 | danno ambientale
+1 | globalità
+1 | temporalità
+1 | collettività
+1 | matrici ambientali
+1 | bbb
+1 | fff
+1 | a quo
+1 | inutiliter data
+1 | ex professo
+1 | vita non vissuta
+1 | persi
+1 | a forcella
+1 | derivati da
+1 | danno cagionato dalla cosa
+1 | difetto
+1 | continuum
+1 | gentleman’s agreement
+1 | regolare rapporti giuridici patrimoniali
+1 | simul cadent, simul stabunt
+1 | ora per allora
+1 | Regolare
+1 | ab esterno
+1 | customer satisfaction
+1 | rider
+1 | trade unions
+1 | gender gap
+1 | surplus
+1 | Azione civile contro la discriminazione
+1 | le parti
+1 | deve comunicare alle parti le circostanze a lui note
+1 | trattativa tra parti
+1 | formazione del contratto
+1 | trattativa affidante
+1 | Prospetti
+1 | di posizione
+1 | deboli
+1 | pactum de tractando
+1 | efficacia degli atti unilaterali
+1 | la loro revoca
+1 | qualora sia possibile e non sia escluso dal titolo
+1 | oggettiva
+1 | soggettiva
+1 | inconcludente superfetazione
+1 | preliminare del preliminare
+1 | causa concreta
+1 | sequenze
+1 | in itinere
+1 | temere che la cosa possa essere rivendicata da terzi
+1 | thema decidendum
+1 | carenza
+1 | mancanza formale
+1 | unicum
+1 | quoad effectum
+1 | ius prelationis
+1 | iure privatorum
+1 | iure imperii
+1 | oggetto del contratto
+1 | oggetto della prestazione
+1 | Relatio
+1 | arbitrium boni viri
+1 | peculiare forma di arbitrato
+1 | una questione non giuridica, ma esclusivamente tecnica
+1 | con equo apprezzamento
+1 | gap
+1 | report
+1 | rating
+1 | know your customer, know your merchandising
+1 | players
+1 | se lo vorrò
+1 | ti pagherò, ti trasferirò il diritto se vorrò
+1 | potere
+1 | Degli effetti del contratto
+1 | bona fide in executivis
+1 | implicitum
+1 | ius non scriptum
+1 | iura novit curia
+1 | in mancanza di patto o uso contrario
+1 | sanctity of contract
+1 | laissez-faire
+1 | tranchant
+1 | star del credere
+1 | titulus-modus
+1 | terzo
+1 | procurarne l’acquisto al compratore
+1 | sanctity of the contract
+1 | locatio operis
+1 | condicio iuris
+1 | click
+1 | contratti di servizi a tacito rinnovo
+1 | sms
+1 | contratti di servizi
+1 | gratuitamente
+1 | Ius variandi
+1 | in nome di lui
+1 | facoltà
+1 | obbligo
+1 | interno
+1 | responsabilità sussidiaria in via di regresso
+1 | chiamata
+1 | quando giungono a conoscenza della persona
+1 | spontaneamente prestato
+1 | qua
+1 | importano accettazione
+1 | chi tace non acconsente
+1 | scorretto
+1 | diritto a pensarci
+1 | contratti intelligenti
+1 | intelligenti
+1 | contratti
+1 | programmi
+1 | catena di blocchi
+1 | tecnologie basate su registri distribuiti
+1 | depersonalizzata
+1 | robotizzata
+1 | if this, then that
+1 | se questo, allora quello
+1 | allora
+1 | consideration
+1 | imprinting
+1 | rapporto di lavoro di fatto
+1 | snorkeling
+1 | tour operator
+1 | resort
+1 | infra
+1 | Estensione della garanzia assicurativa
+1 | dividend washing
+1 | dividend stripping
+1 | a latere
+1 | win-win
+1 | interest rate swap
+1 | littera legis
+1 | aliunde
+1 | bonus argentarius
+1 | traditio clavium
+1 | ticket
+1 | paracadute
+1 | sopravvenienza giuridica
+1 | costrizione
+1 | franchisor
+1 | sub
+1 | eccessivo squilibrio di diritti e di obblighi
+1 | in media re
+1 | know how
+1 | recovery period rules
+1 | royalties
+1 | obblighi precontrattuali di comportamento
+1 | sconveniente
+1 | per incidens
+1 | provarci
+1 | ridurre ad equità
+1 | exceptio non adimpleti contractus
+1 | padre
+1 | figlio
+1 | sub-diritti
+1 | dissenso
+1 | ha forza di legge tra le parti
+1 | è nulla se è relativa a un contratto illecito
+1 | prescritta per la conclusione
+1 | status quo
+1 | scioglimento
+1 | contemplatio domini
+1 | con mezzi idonei
+1 | eventuale
+1 | electio amici
+1 | incertam personam
+1 | Contratti con effetti reali
+1 | un altro diritto
+1 | la promesse de vente vaut vente
+1 | mediata
+1 | salvo che si provi la conoscenza
+1 | la promessa di vendere vale vendita
+1 | derivato
+1 | in esecuzione del mandato
+1 | in adempimento del legato
+1 | in attuazione del patto fiduciario
+1 | emptio spei
+1 | emptio rei speratae
+1 | genus limitatum
+1 | genus limitandum
+1 | minus
+1 | venire contra factum proprium
+1 | non hai adempiuto
+1 | recte
+1 | non ha effetto
+1 | in peius
+1 | bail-in
+1 | prior in tempore
+1 | no creditor worse off
+1 | Pro quota
+1 | sharing economy
+1 | bike sharing
+1 | data economy
+1 | social economy
+1 | influencer marketing
+1 | New Deal for Consumers
+1 | business
+1 | consumers
+1 | en dépit de la bonne foi
+1 | Malgrado la buona fede
+1 | obblighi di legge
+1 | borderline
+1 | video poker
+1 | personal computer
+1 | un’attività eventualmente svolta
+1 | in house
+1 | franchising
+1 | core business
+1 | contra proferentem
+1 | subprime
+1 | obblighi precontrattuali
+1 | Prospetto informativo europeo standardizzato
+1 | call center
+1 | spamming
+1 | o mediante altro mezzo di comunicazione a distanza
+1 | pop-up
+1 | phishing
+1 | placement
+1 | e-commerce
+1 | ranking
+1 | media social
+1 | è gratis e lo sarà sempre
+1 | customer
+1 | inadempimento del fornitore
+1 | interpretatio contra proferentem
+1 | moral suasion
+1 | an debeatur
+1 | all’europea
+1 | quaterdecies
+1 | terdecies
+1 | inutiliter datum
+1 | causa fiduciae
+1 | dopo di noi
+1 | no trust
+1 | tracing
+1 | ratio decidendi
+1 | trust convenzionale
+1 | limitazione
+1 | atto dispositivo
+1 | escrow agent
+1 | troppo forte
+1 | esaurito
+1 | si sa che
+1 | in esecuzione
+1 | contratto con obbligazioni a carico del solo proponente
+1 | il contratto è concluso
+1 | per silentium
+1 | facio ut facias
+1 | mixtum cum donatione
+1 | senza corrispettivo è per forza donazione
+1 | negozio gratuito che trasferisce un bene immobile
+1 | forte e immediata
+1 | pietas
+1 | solitudine giuridica
+1 | devono partecipare
+1 | Inter vivos
+1 | vis
+1 | quid facti
+1 | docendi causa
+1 | ioci causa
+1 | dogma dell’interesse superindividuale
+1 | monofirma
+1 | sale and lease back
+1 | depurato
+1 | arbitrum boni viri
+1 | in audita altera parte
+1 | domestic remedies must be effective
+1 | actio nullitatis
+1 | standstill period
+1 | idem
+1 | All or nothing
+1 | acquirente
+1 | costruttore
+1 | situazione di crisi
+1 | immobile da costruire sulla carta
+1 | autoimposizione
+1 | salvo che la legge disponga altrimenti
+1 | esclusivamente
+1 | l’intesa è nulla ad ogni effetto
+1 | enforcement
+1 | valore genuino
+1 | pan-penalistiche
+1 | in contraendo
+1 | nudus minister
+1 | execution only
+1 | iuris
+1 | nuce
+1 | norma imperativa
+1 | recuperati
+1 | circostanza oggettiva esterna
+1 | deceptus
+1 | dolus bonus
+1 | giustizia contrattuale
+1 | sostanziale
+1 | equo contemperamento degli interessi delle parti
+1 | inique
+1 | sproporzione
+1 | vile
+1 | irrisorio
+1 | negativo
+1 | zio d’America
+1 | IRS
+1 | delegatio actionis
+1 | rischio
+1 | insidiosa
+1 | salvarlo
+1 | in toto sine titulo
+1 | sospesa
+1 | estrinseca
+1 | Ius superveniens
+1 | volli sebbene costretto
+1 | spread
+1 | Libera l’immobile!
+1 | modo di essere
+1 | necessità
+1 | decollo
+1 | moneta urbanistica
+1 | a iniziativa anche privata
+1 | in economia di mercato
+1 | reductio ad unitatem
+1 | per occupazione
+1 | lex minus dixit quam voluit
+1 | si moltiplica
+1 | spatium temporis
+1 | domino
+1 | impasse
+1 | extra ordinem
+1 | in favor creditoris
+1 | decisum
+1 | difetto assoluto di attribuzioni
+1 | norme imperative
+1 | ordine pubblico
+1 | buon costume
+1 | rationes
+1 | ipso iure et facto
+1 | realitas
+1 | commoditas
+1 | actio in rem
+1 | quadro D
+1 | actio negatoria servitutis
+1 | campione assoluto
+1 | titolo migliore
+1 | actio negatoria
+1 | ius
+1 | diritto di fare la costruzione
+1 | mantenere
+1 | di ritorno
+1 | proprio
+1 | improprio
+1 | uso civico
+1 | uti civis
+1 | ius venandi
+1 | zur gesamten hand
+1 | inerenti all’esercizio dell’impresa
+1 | destinati all’esercizio dell’impresa
+1 | ne cives ad arma ruant
+1 | supplente
+1 | nemo causam possessionis sibi ipse mutare potest
+1 | animo domini
+1 | accessio possessionis ex
+1 | fictio legis
+1 | nomine alieno
+1 | Animus possidendi
+1 | animo proprio
+1 | animus spoliandi
+1 | Non titolare
+1 | spazio-temporale
+1 | habitat
+1 | errore collettivo
+1 | pubblicità sanante
+1 | Usucapio libertatis
+1 | monstrum
+1 | dispone
+1 | nelle mani sbagliate
+1 | cum viribus hereditatis
+1 | chiamato
+1 | per effetto di convenzioni a titolo oneroso
+1 | vis expansiva
+1 | usufruttuario
+1 | diretta derivazione successoria
+1 | se muoio
+1 | quando muoio
+1 | eredi
+1 | quotone
+1 | in universum ius defuncti
+1 | favor divisionis
+1 | donazione diretta ad esecuzione indiretta
+1 | possideo quia possideo
+1 | salvo quanto disposto dai commi 2 e 3 dell’art. 534
+1 | domande con cui si contesta l’acquisto mortis causa
+1 | qua talis
+1 | andarsi a prendere
+1 | pactum prelationis
+1 | discrimen
+1 | negative
+1 | omnes
+1 | habeas corpus
+1 | Bill of Rights
+1 | Simmenthal
+1 | Granital
+1 | primautè
+1 | lex mercatoria
+1 | interpositio legislatoris
+1 | deminutio patrimonii
+1 | avatar
+1 | post
+1 | intra litem
+1 | copyright
+1 | mobbing
+1 | gulag
+1 | ius in bello
+1 | cognome della moglie
+1 | può chiedere la cessazione del fatto lesivo
+1 | salvo il risarcimento dei danni
+1 | Google Suggest
+1 | retaggio patriarcale
+1 | droit à l’oubli
+1 | kronos
+1 | on-line
+1 | Google Spain
+1 | tutela del diritto di cronaca nei procedimenti penali
+1 | mere conduit
+1 | forum shopping
+1 | right to be let alone
+1 | smartphone
+1 | cost benefits analysis
+1 | per sua natura o per la natura dei mezzi adoperati
+1 | best practices
+1 | Sicurezza del trattamento
+1 | Data Protection Officer
+1 | chiunque subisca un danno
+1 | Chiunque
+1 | dichiarazioni di nascita
+1 | Godelli
+1 | sexual oriented
+1 | self restraint
+1 | non si loca agli extracomunitari
+1 | non si affittano appartamenti ai gay
+1 | azione civile contro la discriminazione
+1 | transgender
+1 | Torreggiani
+1 | ius corrigendi
+1 | stalking
+1 | star
+1 | rainbow washing
+1 | pink washing
+1 | gay friendly
+1 | Clothes off
+1 | deep nude
+1 | Digital Market Act
+1 | AI Act
+1 | digital services
+1 | input
+1 | output
+1 | clothing off
+1 | deployers
+1 | human oversight
+1 | intelligence
+1 | neuro privacy
+1 | target
+1 | Clear view
+1 | blog
+1 | Sari
+1 | chatbot
+1 | scraping
+1 | ragioni di pubblica sicurezza
+1 | ragioni di marketing
+1 | data breach
+1 | ratione materiae
+1 | internet service provider
+1 | notice and take down
+1 | Definizioni
+1 | gold plating
+1 | governance
+1 | standard
+1 | deepfake pornography
+1 | cyber flashing
+1 | doxing
+1 | hate speech
+1 | grands enfants
+1 | petits enfants
+1 | petit enfant
+1 | media
+1 | Minori ed incapaci
+1 | black box
+1 | libertas religionis
+1 | leader
+1 | cui commoda et eius incommoda
+1 | mare magnum
+1 | distinguo
+1 | défaillance
+1 | porta aperta
+1 | pacta
+1 | arbitrum
+1 | altera
+1 | assunte
+1 | Garanzia patrimoniale
+1 | letter of wishes
+1 | mala gestio
+1 | in universum ius
+1 | lex loci
+1 | Mennesson c. Francia
+1 | Labassee c. Francia
+1 | Coman
+1 | imitatio naturae
+1 | scambio
+1 | vendita
+1 | tiranno
+1 | dimidiato

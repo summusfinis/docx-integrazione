@@ -1,5 +1,8 @@
+import os as _os
+_BIN = _os.path.dirname(_os.path.abspath(__file__))
+_WORK = _os.environ.get('DOCX_WORK') or _os.path.join(_os.getcwd(), 'lavoro')
 import re, sys, io
-sys.path.insert(0, '/home/user/work/bin')
+sys.path.insert(0,_BIN)
 from xmltext import paragraphs, nodes, apply_edits, repl_span
 
 DOC = sys.argv[1]; APPLY = '--apply' in sys.argv

@@ -1,5 +1,8 @@
+import os as _os
+_BIN = _os.path.dirname(_os.path.abspath(__file__))
+_WORK = _os.environ.get('DOCX_WORK') or _os.path.join(_os.getcwd(), 'lavoro')
 import re,sys,io,glob
-sys.path.insert(0,'/home/user/work/bin')
+sys.path.insert(0,_BIN)
 from mk import runs as mkruns
 DOC=sys.argv[1]; APPLY='--apply' in sys.argv
 d=io.open(DOC,encoding='utf-8').read()
@@ -18,9 +21,9 @@ def load(path):
     return out
 
 edits=[]; nok=0; nbad=0; ntab=set()
-for f in sorted(glob.glob('/home/user/work/tab/out_*.txt')):
+for f in sorted(glob.glob(_os.path.join(_WORK,'tab/out_*.txt'))):
     n=re.search(r'out_(\d+)',f).group(1)
-    src=load(f'/home/user/work/tab/in_{n}.txt'); dst=load(f)
+    src=load(_os.path.join(_WORK,f'tab/in_{n}.txt')); dst=load(f)
     TAB={}
     for (t,i),tx in src.items():
         if i!=0: continue

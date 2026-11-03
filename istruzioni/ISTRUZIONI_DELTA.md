@@ -1,6 +1,6 @@
 # Integrazione di un gruppo di schede con il manuale
 
-Il tuo materiale è **tutto** in un solo file, indicato nel messaggio: `/home/user/work/estratti/gN.md`.
+Il tuo materiale è **tutto** in un solo file, indicato nel messaggio: `<LAVORO>/estratti/gN.md`.
 Leggilo una volta sola, per intero, e non aprire nessun altro file.
 
 - **Parte A**: il testo attuale delle schede del compendio (titoli `## Scheda NN`, sezioni

@@ -2,7 +2,7 @@
 
 Ti è stato indicato un intervallo di pagine doppie, da XXX a YYY (tre cifre).
 
-File immagine: `/home/user/pdfsrc/pages_pr/NNNa.jpg` e `/home/user/pdfsrc/pages_pr/NNNb.jpg`
+File immagine: `<LAVORO>/pages_pr/NNNa.jpg` e `<LAVORO>/pages_pr/NNNb.jpg`
 per NNN da XXX a YYY. Ogni file è una pagina del libro: sono venti immagini in tutto.
 Leggile tutte con lo strumento Read, in ordine (XXXa, XXXb, …).
 
@@ -21,7 +21,7 @@ autori e citazioni testuali. Non correggere l'autore, non aggiungere nulla di tu
 libro è sottolineato a penna: le sottolineature non vanno segnalate. Se una parola è
 illeggibile scrivi `[?]`.
 
-Scrivi tutto nel file `/home/user/work/trans_prop/XXX-YYY.md` con lo strumento Write.
+Scrivi tutto nel file `<LAVORO>/trans/XXX-YYY.md` con lo strumento Write.
 
 Rispondi SOLO con l'elenco dei titoli di paragrafo incontrati, uno per riga, nel formato
 `p. NNNN | titolo`, e come ultima riga `intervallo: p. XXXX-YYYY`. Nessun altro testo.

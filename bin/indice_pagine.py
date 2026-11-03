@@ -1,7 +1,10 @@
+import os as _os
+_BIN = _os.path.dirname(_os.path.abspath(__file__))
+_WORK = _os.environ.get('DOCX_WORK') or _os.path.join(_os.getcwd(), 'lavoro')
 import re,io,sys,json,os
-sys.path.insert(0,'/home/user/work/bin')
+sys.path.insert(0,_BIN)
 from xmltext import PARA,nodes,apply_edits,repl_span
-DOC=sys.argv[1]; MAP='/home/user/work/pagine.json'
+DOC=sys.argv[1]; MAP=_os.path.join(_WORK,'pagine.json')
 if not os.path.exists(MAP): print('numeri di pagina: mappa assente, saltato'); sys.exit()
 pg=json.load(io.open(MAP,encoding='utf-8'))
 d=io.open(DOC,encoding='utf-8').read()

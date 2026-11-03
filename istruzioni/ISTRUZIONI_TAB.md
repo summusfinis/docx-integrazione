@@ -7,7 +7,7 @@ corsivi dovuti. Vanno formattate.
 
 ## Il tuo file
 
-Ti è stato indicato un file `/home/user/work/tab/in_N.txt`. È fatto così:
+Ti è stato indicato un file `<LAVORO>/tab/in_N.txt`. È fatto così:
 
 ```
 #T226565
@@ -20,7 +20,7 @@ Il testo è markdown: `**grassetto**`, `*corsivo*`, `***grassetto corsivo***`.
 
 ## Che cosa devi fare
 
-Scrivi `/home/user/work/tab/out_N.txt` con **le sole righe che hai modificato**,
+Scrivi `<LAVORO>/tab/out_N.txt` con **le sole righe che hai modificato**,
 mantenendo le righe `#T…` di apertura delle tabelle a cui appartengono e il
 formato `indice<TAB>testo`. Le righe non modificate non vanno riportate.
 
@@ -50,11 +50,11 @@ import re,io,sys
 N="N"   # metti il tuo numero
 def key(s): return re.sub(r'\*+','',s)
 src={}
-for l in io.open(f'/home/user/work/tab/in_{N}.txt',encoding='utf-8'):
+for l in io.open(f'<LAVORO>/tab/in_{N}.txt',encoding='utf-8'):
     if l.startswith('#T'): t=l.strip(); continue
     i,tx=l.rstrip('\n').split('\t',1); src[(t,i)]=tx
 bad=0
-for l in io.open(f'/home/user/work/tab/out_{N}.txt',encoding='utf-8'):
+for l in io.open(f'<LAVORO>/tab/out_{N}.txt',encoding='utf-8'):
     if l.startswith('#T'): t=l.strip(); continue
     i,tx=l.rstrip('\n').split('\t',1)
     if (t,i) not in src: print('ID ignoto',t,i); bad+=1

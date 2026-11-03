@@ -1,5 +1,8 @@
+import os as _os
+_BIN = _os.path.dirname(_os.path.abspath(__file__))
+_WORK = _os.environ.get('DOCX_WORK') or _os.path.join(_os.getcwd(), 'lavoro')
 import re,sys,io,json,glob
-sys.path.insert(0,'/home/user/work/bin')
+sys.path.insert(0,_BIN)
 from xmltext import PARA, nodes, apply_edits, repl_span
 from mk import runs as mkruns
 
@@ -37,7 +40,7 @@ def ppr(pm):
     r=re.search(r'<w:pPr>.*?</w:pPr>',pm,re.S); return r.group(0) if r else ''
 
 PROP={}
-for f in glob.glob('/home/user/work/delta/*.json'):
+for f in glob.glob(_os.path.join(_WORK,'delta/*.json')):
     PROP[f.split('/')[-1]]=json.load(io.open(f,encoding='utf-8')).get('_nuove_schede') or []
 
 rep=[]

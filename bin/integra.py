@@ -1,5 +1,8 @@
+import os as _os
+_BIN = _os.path.dirname(_os.path.abspath(__file__))
+_WORK = _os.environ.get('DOCX_WORK') or _os.path.join(_os.getcwd(), 'lavoro')
 import re,sys,io,json,glob
-sys.path.insert(0,'/home/user/work/bin')
+sys.path.insert(0,_BIN)
 from xmltext import PARA
 from runs import chars
 from mk import runs as mkruns
@@ -33,7 +36,7 @@ ops=[]   # (pos_assoluta, xml_da_inserire)
 somm=[]  # (pos_fine_paragrafo_sommario, xml_run_da_aggiungere)
 rep=[]
 data={}
-for f in sorted(glob.glob('/home/user/work/delta/*.json')):
+for f in sorted(glob.glob(_os.path.join(_WORK,'delta/*.json'))):
     j=json.load(io.open(f,encoding='utf-8'))
     for k,v in j.items():
         if not k.startswith('Scheda'): continue

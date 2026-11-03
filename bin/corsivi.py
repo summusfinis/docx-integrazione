@@ -1,5 +1,8 @@
+import os as _os
+_BIN = _os.path.dirname(_os.path.abspath(__file__))
+_WORK = _os.environ.get('DOCX_WORK') or _os.path.join(_os.getcwd(), 'lavoro')
 import re, sys, io
-sys.path.insert(0,'/home/user/work/bin')
+sys.path.insert(0,_BIN)
 from xmltext import PARA
 from runs import chars
 
@@ -16,7 +19,7 @@ WHITE=set("""ratio facere res solvens accipiens titulus dominus traditio usucapi
 lockdown telemarketing trustee settlor revirement astreinte astreintes disgorgement accountability influencer
 denuntiatio quomodo compensatio omnibus trust hardship octies septies sexies quinquies quater undecies""".split())
 voc=[]
-for line in io.open('/home/user/work/vocab.txt',encoding='utf-8'):
+for line in io.open((_os.environ.get('DOCX_VOCAB') or _os.path.join(_BIN,'..','dati','vocab.txt')),encoding='utf-8'):
     n,t=line.rstrip('\n').split(' | ',1); n=int(n)
     if t in BLACK: continue
     if ' ' in t:
