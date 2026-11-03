@@ -75,6 +75,11 @@ Partire da un .docx esistente: stessi comandi, con `DOCX_SOURCE` al posto di `co
 
 Il ciclo di misura va ripetuto finché `pagine.json` non cambia. Di norma bastano due giri.
 
+L'indice dei documenti creati da `contenuto.md` è un campo `TOC` di Word. Il file contiene già i
+numeri misurati; all'apertura Word chiede di aggiornare i campi: rispondere sì. Dopo ogni modifica
+al testo, basta aggiornare il campo (tasto F9 sull'indice, o clic destro → Aggiorna campo).
+I documenti creati a partire da un .docx di partenza mantengono l'indice a mano.
+
 ## Istruzioni per i subagenti
 
 Nei file in `istruzioni/`, `<LAVORO>` indica la cartella `DOCX_WORK`. Sostituirla con il percorso
@@ -85,6 +90,7 @@ reale prima di affidare il lavoro a un agente.
 - Nessun test automatico. I controlli fatti finora sono script di verifica eseguiti a mano, più un
   confronto con un build di riferimento.
 - Le tabelle «Mappa concettuale» non vengono generate da `contenuto.md`: il corpo è solo testo.
-- I numeri di pagina sono misurati con LibreOffice. Word può scostarsi di una pagina su qualche voce.
+- I numeri di pagina iniziali sono misurati con LibreOffice; in Word si aggiornano con il campo indice.
+  Non verificato su Word da questo ambiente.
 - Il dizionario dei corsivi va rigenerato per ogni testo.
 - Gli script non verificano la fedeltà del testo alla fonte: è compito della revisione umana.

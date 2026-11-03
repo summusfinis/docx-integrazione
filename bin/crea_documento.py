@@ -68,7 +68,7 @@ body, toc = [], []
 body.append(para('Copertina', mkruns(meta.get('titolo_copertina', 'TITOLO'), '')))
 if meta.get('sottotitolo'):
     body.append(para('Sottotitolo', mkruns(meta['sottotitolo'], '')))
-body.append(para('Titolo1', mkruns('INDICE', ''), '<w:pageBreakBefore/>'))
+body.append(para('IndiceTitolo', mkruns('INDICE', ''), ''))
 idn = 1
 index_xml = []
 for node in tree:
@@ -77,15 +77,19 @@ for node in tree:
     elif node['k'] == 'h2':
         index_xml.append(('h2', node['txt'], node['id']))
 # indice: una riga per titolo e per scheda, con numero di pagina segnaposto (aggiornato da indice_pagine.py)
-for kind, txt, anc in index_xml:
-    ind = '' if kind == 'h1' else '<w:ind w:left="340"/>'
-    rpr_b = '<w:b/>' if kind == 'h1' else ''
+FLD_TOC = ('<w:r><w:fldChar w:fldCharType="begin"/></w:r>'
+           '<w:r><w:instrText xml:space="preserve"> TOC \\o "1-2" \\h \\z \\u </w:instrText></w:r>'
+           '<w:r><w:fldChar w:fldCharType="separate"/></w:r>')
+for n_entry, (kind, txt, anc) in enumerate(index_xml):
     plain = esc(txt.replace('*', '').replace('\u2014', '\u2013'))
+    rpr_b = '<w:b/>' if kind == 'h1' else ''
     link = (f'<w:hyperlink w:anchor="{anc}" w:history="1"><w:r><w:rPr>{rpr_b}</w:rPr>'
             f'<w:t xml:space="preserve">{plain}</w:t></w:r></w:hyperlink>')
-    body.append(f'<w:p><w:pPr><w:tabs><w:tab w:val="right" w:leader="dot" w:pos="9071"/></w:tabs>'
-                f'<w:spacing w:before="20" w:after="20" w:line="240" w:lineRule="auto"/>{ind}</w:pPr>'
+    lead = FLD_TOC if n_entry == 0 else ''
+    style_id = 'TOC1' if kind == 'h1' else 'TOC2'
+    body.append(f'<w:p><w:pPr><w:pStyle w:val="{style_id}"/></w:pPr>{lead}'
                 f'{link}<w:r><w:tab/><w:t>0</w:t></w:r></w:p>')
+body.append('<w:p><w:r><w:fldChar w:fldCharType="end"/></w:r></w:p>')
 body.append('<w:p><w:r><w:br w:type="page"/></w:r></w:p>')
 
 def emit_blocks(blocks):
@@ -130,6 +134,9 @@ styles = (XMLH + f'<w:styles {NS}><w:docDefaults><w:rPrDefault><w:rPr>{FONT}<w:c
           + style('Normale', 'Normale', '<w:spacing w:before="0" w:after="0" w:line="276" w:lineRule="auto"/><w:jc w:val="both"/>', '<w:sz w:val="23"/>', None)
           + style('Copertina', 'Copertina', '<w:spacing w:before="2400" w:after="240"/><w:jc w:val="center"/>', '<w:b/><w:sz w:val="36"/>')
           + style('Sottotitolo', 'Sottotitolo', '<w:spacing w:after="240"/><w:jc w:val="center"/>', '<w:b/><w:sz w:val="28"/>')
+          + style('IndiceTitolo', 'Indice titolo', '<w:keepNext/><w:pageBreakBefore/><w:spacing w:before="0" w:after="240"/><w:jc w:val="center"/>', '<w:b/><w:sz w:val="28"/>')
+          + style('TOC1', 'toc 1', '<w:tabs><w:tab w:val="right" w:leader="dot" w:pos="9071"/></w:tabs><w:spacing w:before="20" w:after="20" w:line="240" w:lineRule="auto"/><w:jc w:val="left"/>', '<w:b/>')
+          + style('TOC2', 'toc 2', '<w:tabs><w:tab w:val="right" w:leader="dot" w:pos="9071"/></w:tabs><w:spacing w:before="20" w:after="20" w:line="240" w:lineRule="auto"/><w:ind w:left="340"/><w:jc w:val="left"/>', '')
           + style('Titolo1', 'Titolo 1', '<w:keepNext/><w:spacing w:before="0" w:after="240"/><w:jc w:val="center"/><w:outlineLvl w:val="0"/>', '<w:b/><w:sz w:val="28"/>')
           + style('Titolo2', 'Titolo 2', '<w:keepNext/><w:spacing w:before="0" w:after="160"/><w:jc w:val="both"/><w:outlineLvl w:val="1"/>', '<w:b/><w:sz w:val="25"/>')
           + style('Titolo3', 'Titolo 3', '<w:keepNext/><w:spacing w:before="200" w:after="60"/><w:jc w:val="both"/><w:outlineLvl w:val="2"/>', '<w:b/><w:sz w:val="23"/>')
@@ -144,12 +151,14 @@ footer = (XMLH + f'<w:ftr {NS}><w:p><w:pPr><w:pStyle w:val="Pidipagina"/></w:pPr
 rels = (XMLH + '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
         '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>'
         '<Relationship Id="rId8" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer" Target="footer1.xml"/>'
+        '<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings" Target="settings.xml"/>'
         '</Relationships>')
 ctypes = (XMLH + '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">'
           '<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>'
           '<Default Extension="xml" ContentType="application/xml"/>'
           '<Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/>'
           '<Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/>'
+          '<Override PartName="/word/settings.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml"/>'
           '<Override PartName="/word/footer1.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml"/>'
           '<Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>'
           '<Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/>'
@@ -168,6 +177,7 @@ app = (XMLH + '<Properties xmlns="http://schemas.openxmlformats.org/officeDocume
 files = {
     '[Content_Types].xml': ctypes, '_rels/.rels': pkg_rels,
     'word/document.xml': doc, 'word/styles.xml': styles, 'word/footer1.xml': footer,
+    'word/settings.xml': XMLH + f'<w:settings {NS}><w:updateFields w:val="true"/></w:settings>',
     'word/_rels/document.xml.rels': rels, 'docProps/core.xml': core, 'docProps/app.xml': app,
 }
 for rel, content in files.items():
