@@ -53,9 +53,17 @@ Esempio completo: `esempi/contenuto_esempio.md` (testo inventato, per prova).
 - `bin/tabapply.py`: grassetti e corsivi sulle righe di elenco delle tabelle, da coppie `tab/in_N.txt`/`out_N.txt`
 - `bin/integra.py`: inserisce sezioni e capoversi da `delta/*.json` nelle schede esistenti
 - `bin/nuove.py`: schede nuove da `delta/*.json` (solo con `DOCX_NUOVE=1`)
-- `bin/sistema.py`: rinumera le sezioni non consecutive, riallinea i sommari, porta il corpo delle schede a 11,5
+- `bin/sistema.py`: rinumera le sezioni non consecutive, riallinea i sommari, porta il corpo delle schede
+  a 10,5 (stile `Normale`) tenendo i titoli di sezione a 11,5
 - `bin/firstpage.py`: prima pagina senza numero
 - `bin/indice_pagine.py`: aggiorna i numeri dell'indice da `pagine.json`
+- `bin/ocr_pagina.py`: OCR di una foto di pagine affiancate: ritaglio delle due pagine, rimozione
+  delle sottolineature a penna, riconoscimento con tesseract (`-l ita`, `OMP_THREAD_LIMIT=1`)
+- `bin/pulisci_ocr.py`: dai file OCR per mezza pagina al testo continuo di un intervallo, con `[p. N]`
+- `bin/trascrizione.py`: come sopra, con titoli di capitolo e di paragrafo, per la trascrizione da consegnare
+- `bin/mappa_pagine_ocr.py`: numero di pagina stampato e titolo corrente di ogni mezza pagina
+- `bin/estrai_schede.py`: estrae il testo delle schede indicate dal `document.xml`, in markdown leggero
+- `bin/indice_ripara.py`: ripara le voci d'indice in cui il numero di pagina si era attaccato al titolo
 - `dati/vocab.txt`: dizionario dei corsivi, formato `conteggio | termine`
 - `istruzioni/`: istruzioni per i subagenti che producono i file di input
 - `esempi/`: esempio di `contenuto.md`

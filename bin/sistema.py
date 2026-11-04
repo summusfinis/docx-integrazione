@@ -64,7 +64,7 @@ for b in blocks:
 d=apply_edits(d,edits)
 print('schede rinumerate:',len(fixed),[f for f,_ in fixed])
 
-# ---- B) corpo delle schede a 11,5 (sz 23)
+# ---- B) corpo delle schede a 10,5 (sz 21)
 P=scan()
 tbl=[(m.start(),d.find('</w:tbl>',m.start())) for m in re.finditer(r'<w:tbl>',d)]
 def intab(x):
@@ -78,11 +78,35 @@ for s,e,pm,t in P:
     if intab(s) or t.startswith('Sommario') or not t: continue
     ch=False
     for m in re.finditer(r'<w:sz w:val="(\d+)"/>',pm):
-        if m.group(1)!='23':
-            edits.append((s+m.start(),m.end()-m.start(),'<w:sz w:val="23"/>')); nrun+=1; ch=True
+        if m.group(1)!='21':
+            edits.append((s+m.start(),m.end()-m.start(),'<w:sz w:val="21"/>')); nrun+=1; ch=True
     if ch: npar+=1
 d=apply_edits(d,edits)
-print('corpo a 11,5: run corretti',nrun,'in',npar,'capoversi')
+print('corpo a 10,5: run corretti',nrun,'in',npar,'capoversi')
+
+# ---- B2) stile del corpo a 10,5 (sz 21), titoli di sezione fermi a 11,5 (sz 23)
+import os as _o
+_st = _o.path.join(_o.path.dirname(_o.path.abspath(DOC)) or '.', 'styles.xml')
+if _o.path.exists(_st):
+    sx = io.open(_st, encoding='utf-8').read()
+    def _stile(t, sz):
+        global sx
+        m = re.search(r'<w:style [^>]*w:styleId="%s"[^>]*>.*?</w:style>' % t, sx, re.S)
+        if not m: return 0
+        b = m.group(0)
+        if re.search(r'<w:sz w:val="\d+"/>', b):
+            nb = re.sub(r'<w:sz w:val="\d+"/>', '<w:sz w:val="%d"/>' % sz, b)
+            nb = re.sub(r'<w:szCs w:val="\d+"/>', '<w:szCs w:val="%d"/>' % sz, nb)
+        elif '<w:rPr>' in b:
+            nb = b.replace('<w:rPr>', '<w:rPr><w:sz w:val="%d"/><w:szCs w:val="%d"/>' % (sz, sz), 1)
+        else:
+            nb = b.replace('</w:style>', '<w:rPr><w:sz w:val="%d"/><w:szCs w:val="%d"/></w:rPr></w:style>' % (sz, sz))
+        sx = sx.replace(b, nb, 1)
+        return 1
+    n = _stile('Normale', 21) + _stile('Titolo3', 23) + _stile('Titolo4', 23)
+    if APPLY: io.open(_st, 'w', encoding='utf-8').write(sx)
+    print('stili aggiornati:', n)
+
 if APPLY:
     io.open(DOC,'w',encoding='utf-8').write(d)
     print('APPLICATO; doc',len(d),'byte')
